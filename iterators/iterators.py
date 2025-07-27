@@ -14,3 +14,18 @@ print(next(rev))
 print(next(rev))
 print(next(rev))
 print(next(rev))
+
+#list iterate
+for element in [1,2,3]:
+    print(element)
+#tuple iterate
+for element in (1,2,3):
+    print(element)
+
+#dictionary iterate
+for key in {'one': 1, 'two': 2}:
+    print(key)
+
+#file
+for line in open("C:\\Users\\REGEN\\Documents\\python basics\\book.txt"):
+    print(line, end = '')
