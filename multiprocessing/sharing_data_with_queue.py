@@ -3,7 +3,6 @@ import multiprocessing
 
 
 def calc_square(numbers, q):
-
     for n in numbers:
         q.put(n*n)
 
